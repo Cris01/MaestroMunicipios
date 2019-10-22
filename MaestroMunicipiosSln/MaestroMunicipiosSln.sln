@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroMunicipios.Applicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroMunicipios.Domain", "MaestroMunicipios.Domain\MaestroMunicipios.Domain.csproj", "{37F24308-FD44-4997-8798-A475EAB18F76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroMunicipios.Infraestructure", "MaestroMunicipios.Infraestructure\MaestroMunicipios.Infraestructure.csproj", "{70EF385E-3E30-4E74-B798-4EA8C030AD6C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroMunicipios.RestApi", "MaestroMunicipios.RestApi\MaestroMunicipios.RestApi.csproj", "{C311B2B5-FD01-4C3F-99DD-83ABE8BB76E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroMunicipios.Infraestructure", "MaestroMunicipios.Infraestructure\MaestroMunicipios.Infraestructure.csproj", "{18AF5DD2-7943-4D9B-A5BD-D993D167707D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{37F24308-FD44-4997-8798-A475EAB18F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37F24308-FD44-4997-8798-A475EAB18F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37F24308-FD44-4997-8798-A475EAB18F76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70EF385E-3E30-4E74-B798-4EA8C030AD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70EF385E-3E30-4E74-B798-4EA8C030AD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70EF385E-3E30-4E74-B798-4EA8C030AD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70EF385E-3E30-4E74-B798-4EA8C030AD6C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C311B2B5-FD01-4C3F-99DD-83ABE8BB76E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C311B2B5-FD01-4C3F-99DD-83ABE8BB76E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C311B2B5-FD01-4C3F-99DD-83ABE8BB76E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C311B2B5-FD01-4C3F-99DD-83ABE8BB76E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AF5DD2-7943-4D9B-A5BD-D993D167707D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AF5DD2-7943-4D9B-A5BD-D993D167707D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AF5DD2-7943-4D9B-A5BD-D993D167707D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AF5DD2-7943-4D9B-A5BD-D993D167707D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
