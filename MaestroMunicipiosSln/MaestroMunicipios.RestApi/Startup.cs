@@ -36,7 +36,7 @@ namespace MaestroMunicipios.RestApi
             services.AddTransient(typeof(CityManagerService));
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API Agaval Pasarela", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API Maestro Departamentos", Version = "v1" });
             });
 
         }
@@ -54,6 +54,7 @@ namespace MaestroMunicipios.RestApi
                 app.UseHsts();
             }
             var basePath = Environment.GetEnvironmentVariable("ApiPath") ?? Configuration.GetValue<string>("ApiPath");
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseSwagger(c =>
             {
                 c.PreSerializeFilters.Add((swaggerDoc, httpReq) => swaggerDoc.Servers.Add(new OpenApiServer
